@@ -1,0 +1,240 @@
+
+*{margin:0;padding:0}
+body{font-family:Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+body, html{height:100%;}
+
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+.container_full {width: 100%; height: auto;}
+.container {width:100%; margin:0 auto; display:block }
+.fix{overflow:hidden;}
+.aligncenter{display:block;margin:0 auto;}
+.floatleft{float:left}
+.floatright{float:right}
+
+body{
+	background-color:linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(9,86,121,0) 48%, rgba(0,219,255,0.31976540616246496) 100%);
+}
+
+#upercolor{
+	background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(9,86,121,0) 48%, rgba(0,219,255,0.31976540616246496) 100%);
+}
+
+#headname{
+    text-align:center;
+	color:blue;
+	font-size:50px;
+	margin-right:350px;
+	margin-top:10px;
+	padding:5px;
+
+
+
+}
+#sologan{
+	font-size:20px;
+	text-align:center;
+	color:orange;
+}
+#headpic{
+	float:left;
+	margin-left:400px;
+	padding:0px;
+	margin-right:0px;
+
+}
+#nav{
+	width:100%;
+	margin:0 auto;
+
+}
+#menu{
+	padding:0px;
+	list-style-type:none;
+	background:#4E4E4E;
+	border-bottom:5px solid orange;
+	min-height:41px;
+	margin:auto;
+}
+
+#menu li{
+	float:left;
+	border-right:1px solid #605B5B;
+	border-left:1px solid #2B2A2A;
+	position:relative;
+	font-size:18px;
+	
+}
+#menu ul{
+		z-index:999;
+
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	background:#4E4E4E;
+	padding:10px 20px;
+	display:block;
+}
+#menu li a:hover{
+	background:orange;
+}
+
+
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	-webkit-transition:0.1s all ease;
+	-moz-transition:0.1s all ease;
+}
+#menu li:hover ul{
+	left:0;
+}
+
+#menu li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:1px solid #605B5B;
+	border-bottom:1px solid #2B2A2A;	
+	width:200px;
+	position:relative;
+}
+
+#menu li ul li ul{
+	position:absolute;
+	top:-999999px;
+		border-color: 1px solid orange;
+
+}
+#menu li ul li:hover ul{
+	top:0;
+	left:200px;
+}
+.undrmnu_srch{padding-top:0; position:relative; margin-bottom:0px;margin-top:0px;margin-right:11px;}
+.undrmnu_srch input{ width:200px; height:35px; border:1px solid #ababab; border-radius:5px; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; padding:0 10px; background:#fff; font:normal 14px Arial, Helvetica, sans-serif; color:#1F5A9D; margin-top:3px; margin-right:15px; }
+.undrmnu_srch input[type="submit"] { width:27px; height:27px; cursor:pointer; text-indent:-999999px; border:none;  background:url(Images/srchIcon.png) no-repeat; position:absolute; right:13px; top:6px; }
+
+#bodyframe{
+	margin-left:150px;;
+	padding:10px;
+	
+}
+#note{
+	font-size:12px;
+	text-align:center;
+	float:left;
+	
+	margin:auto;
+	padding:5px;
+}
+
+
+h1{
+	
+
+	font-family:SolaimanLipi_22-02-2012;
+	color:red;
+	text-align:center;
+}
+
+
+
+
+
+#pdffil{
+margin-left:180px;
+margin-top:20px;
+padding:auto;
+width:1000px;
+height:980px;
+
+
+}
+#aboutp{
+	font-size:20px;
+	margin:100px;
+	color:blue;
+	text-align:justify;
+
+	
+}
+#social_area{
+	list-style-type:none;
+	padding:10px;
+	width:40px;
+	height:80px;
+	margin-top:100px;
+	float:left;
+	position:fixed;
+	background: black;
+	border-radius:25px 0px 25px 0px;
+
+}
+#social_area li{
+	
+
+}
+#social_area li img{
+	width:40px;
+	height:40px;
+	padding-top-bottom:10px;
+
+
+}
+#slider{
+	width:900px;
+	height:500;
+	margin-top:50px;
+	margin-left:100px;
+
+}
+#bani{
+	
+width:150px;
+height:400px;
+background:#ddd;
+border-left:5px solid  gray ;
+margin-right:30px;
+margin-top:0;
+	float:right;
+color:black;
+padding-left:10px;
+}
+footer{
+	background:#504646;
+	padding:0px;
+	margin:20px;
+	
+}
+
+
+.footer_part{background:#312F30;padding-bottom:25px;}
+.footer_part h2{color:#fff;font-family: 'Oswald', sans-serif;padding-left:5px;border-bottom:2px solid #dff3e1}
+.footer_part ul{margin-left:5px;}
+.footer_part ul li{margin-top:2px;margin-bottom:2px;list-style:none}
+.footer_part a{color:#fff;text-decoration:none;}
+.footer_part a:hover{color:orange;}
+.footer_left{width:300px;margin-right:15px;}
+.footer_middle{width:300px;margin-right:15px;}
+.footer_right{width:200px}
+.footer_right ul li{float:left;}
+.footer_right ul li img{width: 40px;
+height: 40px;
+padding: 2px 10px;}
+.copysec{background:orange;padding:5px;text-align:center}
+footer{
+	width:100%;
+}
+
+
